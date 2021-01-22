@@ -23,10 +23,12 @@ public class MainTrivialJdbc {
 		 */
 		public static void main(String[] args) throws Exception {
 	        
-			creationIndividu();
-			creationPersone();
-
-			//lancerMysql();
+			//creationIndividu();
+			//creationPersone();
+			System.out.println("-------START--------");
+			lancerMysql();
+			
+			System.out.println("-------STOP--------");
 
 
 		}
@@ -60,7 +62,7 @@ public class MainTrivialJdbc {
 				MySQLAccess dao = new MySQLAccess();
 				dao.readDataBase();
 			} catch (Exception e) {
-				log.error(e);
+				e.printStackTrace();
 			}
 
 		}

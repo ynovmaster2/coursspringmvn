@@ -35,11 +35,11 @@ public class AppSpringXMLMain {
 		
 	
 		
-		log.info("----------");
-		Language language = (Language) context.getBean("language");
+		//log.info("----------");
+		//Language language = (Language) context.getBean("language");
 
-		log.info("Bean Language: "+ language);
-		log.info("Call language.sayBye(): "+ language.getBye());
+		//log.info("Bean Language: "+ language);
+		//log.info("Call language.sayBye(): "+ language.getBye());
 
 		log.info("----------");
 

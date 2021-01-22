@@ -28,8 +28,11 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 
+
 	<bean id="english" class="com.ynov.modules.spring.lang.impl.English">
 	</bean>
+	
+
 	
 	<context:annotation-config />
 	<context:component-scan

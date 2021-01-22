@@ -11,7 +11,7 @@ import com.ynov.modules.spring.lang.Language;
  * @author bilonjea
  *
  */
-@Component
+//@Component
 public class Vietnamese implements Language {
 
 	@Override
