@@ -13,9 +13,9 @@
   </modules>
 
   	<scm>
-        <connection>scm:git:git@github.com:bilonjea/coursspringmvn.git</connection>
-        <developerConnection>scm:git:git@github.com:bilonjea/coursspringmvn.git</developerConnection>
-        <url>scm:git:git@github.com:bilonjea/coursspringmvn.git</url>
+        <connection>scm:git:git@github.com:ynovmaster2/coursspringmvn.git</connection>
+        <developerConnection>scm:git:git@github.com:ynovmaster2/coursspringmvn.git</developerConnection>
+        <url>scm:git:git@github.com:ynovmaster2/coursspringmvn.git</url>
         <tag>HEAD</tag>
     </scm>
     
@@ -33,7 +33,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/bilonjea/coursspringmvn</url>
+            <url>https://maven.pkg.github.com/ynovmaster2/coursspringmvn</url>
         </repository>
        
     </distributionManagement>
