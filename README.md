@@ -1,2 +1,2 @@
 # coursspringmvn
-cours spring mvn
+cours spring maven jdbc template 
